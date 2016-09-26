@@ -1,0 +1,31 @@
+/*styles*/
+
+ol {font-family:Georgia;
+    font-size:12px;
+    font-weight:normal;
+    text-align:left;
+    color: rgb(102,0,51);}
+
+.one {list-style-type: circle;
+      list-style-position: inherit;}
+
+h1  {font-family: Arial;
+    font-size:34px;
+    font-weight:bold;
+    text-align:center;
+    color: rgb(102,0,51);}
+
+h5 {font-family: Arial;
+    font-size:18px;
+    font-weight:bold;
+    text-align:center;
+    color: rgb(102,0,51);}
+
+p {font-family:Georgia;
+   font-size:14px;
+   line-height:1.5;
+   font-weight:normal;
+   text-align:center;}
+
+a {text-decoration: none;
+   color: rgb(204, 0, 102);}
