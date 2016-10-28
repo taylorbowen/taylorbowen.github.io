@@ -1,16 +1,24 @@
 /*styles*/
 
+@media (min-width:60em) {
 
-body {
-  width: 90%;
-  max-width: 90em;
+.columns .col {
+  float:left;
+  width: 50%;
+  }
+
+
+}
+
+body{
+  max-width: 60em;
   margin: 0 auto;
-  position: relative;
 }
 
-html body {
-  overflow-x: hidden;
+p{
+  font: 1.2em/1.5 Georgia, serif;
 }
+
 
 h1 {
   font-family: Georgia;
@@ -18,61 +26,18 @@ h1 {
   font-weight:bold;
   line-height: 0;
   text-align: center;
-  padding-left: 1em;
-  padding-top: .5em;
+  margin-top: 1.5em;
+
   }
 
-
-h3 {
+h2 {
   font-family: Georgia;
   font-size: 1.2em;
-  font-weight: normal;
-  padding-top: 3.7em;
-  max-width: 22em;
-  min-width: 18em;
-}
-
-h6 {
-  font-family: Georgia;
-  font-size: 1em;
   font-weight:normal;
   color: #999;
-  padding-bottom: 6em;
-  line-height: 0;
+  line-height: .5em;
   text-align: center;
-  }
-
-ul {
-  margin-bottom: 10em;
-}
-
-.group:before,
-.group:after {
-  content: "";
-  display: table;
-}
-.group:after {
-  clear: both;
-}
-.group {
-  clear: both;
-  *zoom: 1;
-}
-
-#test {
-  min-width: 42em;
-}
-
-section {
-  float: left;
-  margin: 0 .5%;
-  width: 55%;
-}
-
-aside {
-  float: right;
-  margin: 0 .6%;
-  width: 40%;
+  padding-bottom: 2em;
 }
 
 a {
@@ -80,142 +45,138 @@ a {
   color: black;
 }
 
-.specimen {
-  color: white;
-  font-family: Georgia;
-  font-size: 1.875em;
-  letter-spacing: .5em;
-  line-height: .6em;
-  margin-left: 2em;
-}
-
-.numbers {
-  font-family: Georgia;
-  font-size: 1.2em;
-  letter-spacing: 3.2em;
-  line-height: .6em;
-  margin-left: 3.2em;
-}
-
-.color {
-  background: #f6c;
-  display: block;
-}
-
-.color-2 {
-  padding-top: 1.5em;
-  padding-bottom: 1.5em;
-  padding-left: 3.5em;
-  padding-right: 1.5em;
-  margin-bottom: 3.5em;
-  background: #9c9c9c;
-  display: block;
-}
-
-.spacing {
-  letter-spacing: .650em;
+footer {
+  clear: left;
 }
 
 .title {
   font-family: Georgia;
   font-weight: bold;
-  font-size: 1.4em;
+  font-size: 1.8em;
   color: white;
   margin-bottom: 1em;
+  padding-top: .5em;
+  line-height: 1em;
+  margin-left: 1.3em;
+  padding-right: 1em;
 }
 
+  .specimen {
+    color: white;
+    font-family: Georgia;
+    font-size: 1.875em;
+    letter-spacing: .5em;
+    line-height: .3em;
+    text-align: center;
+    padding-top: .5em;
+    padding-bottom: .378em;
+  }
 
-.content {
-  font-family: Georgia;
-  font-weight: normal;
-  font-size: 1em;
-  color: white;
-  line-height: 1.2em;
-  margin-bottom: 10em;
-  max-width: 22em;
-  min-width: 20em;
+
+  .color {
+    background: #f6c;
+
+  }
+
+  .color-2 {
+    background: #9c9c9c;
+    clear: left;
+  }
+
+  .content {
+    font-family: Georgia;
+    font-weight: normal;
+    font-size: 1.1em;
+    color: white;
+    line-height: 1.1em;
+    padding-bottom: 2.92em;
+    padding-right: 2em;
+    padding-left: 2em;
+  }
+
+    .numbers {
+      font-family: Georgia;
+      font-size: 1.2em;
+      letter-spacing: 3.2em;
+      line-height: .2em;
+      text-align: center;
+      margin-left: 2em;
+
+    }
+
+    .spacing {
+      letter-spacing: .650em;
+    }
+
+    .me {
+      font-family: Georgia;
+      font-weight:normal;
+      font-size: 1.1em;
+      margin-left: 9em;
+
+    }
+
+.type {
+  margin-top: 2.5em;
 }
 
-.bottom {
-  padding-bottom: 6.125em;
-}
+    .space-top {
+      padding-top: 2em;
+    }
 
-.me {
-  font-family: Georgia;
-  font-weight:normal;
-  font-size: 1.1em;
-  padding-left: 9em;
-}
+    .font-styles {
+      font-family: Georgia;
+      font-weight: normal;
+      font-size: .8em;
+      line-height: 0;
+      color: black;
+      padding-left: 1.5em;
+    }
 
-.space-top {
-  padding-top: 4em;
-}
+    .edit-1 {
+      font-family: Georgia;
+      font-size: 2em;
+      font-weight: normal;
+      color: black;
+      padding-left: .5em;
+      line-height: 2.5em;
+    }
 
-.font-styles {
-  font-family: Georgia;
-  font-weight: normal;
-  font-size: .8em;
-  line-height: 0;
-  color: black;
-  padding-left: 1.5em;
-}
+    .edit-2 {
+      font-family: Georgia;
+      font-size: 2em;
+      font-style: italic;
+      color: black;
+      padding-left: .5em;
+      line-height: 2.5em;
+    }
 
-.edit-1 {
-  font-family: Georgia;
-  font-size: 2em;
-  font-weight: normal;
-  color: black;
-  padding-left: .5em;
-  line-height: 2.5em;
-}
+    .edit-3 {
+      font-family: Georgia;
+      font-size: 2em;
+      font-weight: bold;
+      color: black;
+      padding-left: .5em;
+      line-height: 2.5em;
+    }
 
-.edit-2 {
-  font-family: Georgia;
-  font-size: 2em;
-  font-style: italic;
-  color: black;
-  padding-left: .5em;
-  line-height: 2.5em;
-}
+    .edit-4 {
+      font-family: Georgia;
+      font-size: 2em;
+      font-weight: bold;
+      font-style: italic;
+      color: black;
+      padding-left: .5em;
+      line-height: 2.5em;
+    }
 
-.edit-3 {
-  font-family: Georgia;
-  font-size: 2em;
-  font-weight: bold;
-  color: black;
-  padding-left: .5em;
-  line-height: 2.5em;
-}
-
-.edit-4 {
-  font-family: Georgia;
-  font-size: 2em;
-  font-weight: bold;
-  font-style: italic;
-  color: black;
-  padding-left: .5em;
-  line-height: 2.5em;
-}
-
-#styles-weights ul {
-	list-style: none;
-}
-
-#styles-weights {
-  max-width: 40em;
-}
-
-.full-width-bar {
-  margin: 0 -9999rem;
-  padding: 0.25rem 9999rem;
-}
-
-.free {
-  padding-bottom: 2em;
+.styles-weights ul{
+  list-style: none;
 }
 
 .glyphs {
-  padding-top: .3em;
+  padding-top: 2em;
+  margin-left: 4em;
 }
 
 .bottom-heading-1 {
@@ -224,6 +185,7 @@ a {
   font-family: Georgia;
   font-size: 1.2em;
   font-style: italic;
+  padding-top: 1em;
 }
 
 .tahoma {
@@ -242,4 +204,6 @@ a {
   font-family: Verdana;
   font-size: 2.5em;
   text-align: center;
+  padding-bottom: .5em;
 }
+
