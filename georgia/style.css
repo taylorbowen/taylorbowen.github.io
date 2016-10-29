@@ -132,7 +132,7 @@ footer {
     .font-styles {
       font-family: Georgia;
       font-weight: normal;
-      font-size: .7em;
+      font-size: .8em;
       line-height: 0;
       color: black;
       padding-left: 1.5em;
@@ -140,7 +140,7 @@ footer {
 
     .edit-1 {
       font-family: Georgia;
-      font-size: 1.8em;
+      font-size: 1.9em;
       font-weight: normal;
       color: black;
       padding-left: .5em;
@@ -149,7 +149,7 @@ footer {
 
     .edit-2 {
       font-family: Georgia;
-      font-size: 1.8em;
+      font-size: 1.9em;
       font-style: italic;
       color: black;
       padding-left: .5em;
@@ -158,7 +158,7 @@ footer {
 
     .edit-3 {
       font-family: Georgia;
-      font-size: 1.8em;
+      font-size: 1.9em;
       font-weight: bold;
       color: black;
       padding-left: .5em;
@@ -167,7 +167,7 @@ footer {
 
     .edit-4 {
       font-family: Georgia;
-      font-size: 1.8em;
+      font-size: 1.9em;
       font-weight: bold;
       font-style: italic;
       color: black;
@@ -180,8 +180,8 @@ footer {
 }
 
 .glyphs {
-  padding-top: 2em;
-  margin-left: 1em;
+  padding-top: 1.9em;
+  padding-left: .5em;
 }
 
 .bottom-heading-1 {
