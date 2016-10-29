@@ -180,7 +180,8 @@ footer {
 }
 
 .glyphs {
-  padding-top: 1.9em;
+  display: block;
+  margin: 0 auto;
 }
 
 .bottom-heading-1 {
