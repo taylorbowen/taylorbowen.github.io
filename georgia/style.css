@@ -1,0 +1,213 @@
+/*styles*/
+
+@media (min-width:60em) {
+
+.columns .col {
+  float:left;
+  width: 50%;
+  }
+
+  .columns-2 .col-2 {
+    float:left;
+    width: 50%;
+    }
+
+}
+
+body{
+  max-width: 60em;
+  margin: 0 auto;
+}
+
+p{
+  font: 1.2em/1.5 Georgia, serif;
+}
+
+
+h1 {
+  font-family: Georgia;
+  font-size: 4.75em;
+  font-weight:bold;
+  line-height: 0;
+  text-align: center;
+  margin-top: 1.5em;
+
+  }
+
+h2 {
+  font-family: Georgia;
+  font-size: 1.2em;
+  font-weight:normal;
+  color: #999;
+  line-height: .5em;
+  text-align: center;
+  padding-bottom: 2em;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+footer {
+  clear: left;
+}
+
+.title {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 1.8em;
+  color: white;
+  margin-bottom: 1em;
+  padding-top: .5em;
+  line-height: 1em;
+  margin-left: 1.3em;
+  padding-right: 1em;
+}
+
+  .specimen {
+    color: white;
+    font-family: Georgia;
+    font-size: 1.875em;
+    letter-spacing: .5em;
+    line-height: .3em;
+    text-align: center;
+    padding-top: .5em;
+    padding-bottom: .378em;
+  }
+
+
+  .color {
+    background: #f6c;
+
+  }
+
+  .color-2 {
+    background: #9c9c9c;
+    clear: left;
+  }
+
+  .content {
+    font-family: Georgia;
+    font-weight: normal;
+    font-size: 1.1em;
+    color: white;
+    line-height: 1.1em;
+    padding-bottom: 2.9em;
+    padding-right: 2em;
+    padding-left: 2em;
+  }
+
+    .numbers {
+      font-family: Georgia;
+      font-size: 1.2em;
+      letter-spacing: 3.2em;
+      line-height: .2em;
+      text-align: center;
+      margin-left: 2em;
+
+    }
+
+    .spacing {
+      letter-spacing: .650em;
+    }
+
+    .me {
+      font-family: Georgia;
+      font-weight:normal;
+      font-size: 1.1em;
+      margin-left: 9em;
+
+    }
+
+.type {
+  margin-top: 2em;
+  padding-right: .5em;
+}
+
+    .space-top {
+      padding-top: 2em;
+    }
+
+    .font-styles {
+      font-family: Georgia;
+      font-weight: normal;
+      font-size: .8em;
+      line-height: 0;
+      color: black;
+      padding-left: 1.5em;
+    }
+
+    .edit-1 {
+      font-family: Georgia;
+      font-size: 1.9em;
+      font-weight: normal;
+      color: black;
+      padding-left: .5em;
+      line-height: 2.5em;
+    }
+
+    .edit-2 {
+      font-family: Georgia;
+      font-size: 1.9em;
+      font-style: italic;
+      color: black;
+      padding-left: .5em;
+      line-height: 2.5em;
+    }
+
+    .edit-3 {
+      font-family: Georgia;
+      font-size: 1.9em;
+      font-weight: bold;
+      color: black;
+      padding-left: .5em;
+      line-height: 2.5em;
+    }
+
+    .edit-4 {
+      font-family: Georgia;
+      font-size: 1.9em;
+      font-weight: bold;
+      font-style: italic;
+      color: black;
+      padding-left: .5em;
+      line-height: 2.5em;
+    }
+
+.styles-weights ul{
+  list-style: none;
+}
+
+.glyphs {
+  padding-top: 1.9em;
+  padding-left: .5em;
+}
+
+.bottom-heading-1 {
+  color: white;
+  text-align: center;
+  font-family: Georgia;
+  font-size: 1.2em;
+  font-style: italic;
+  padding-top: 1em;
+}
+
+.tahoma {
+  font-family: Tahoma;
+  font-size: 2.5em;
+  text-align: center;
+}
+
+.snell-roundhand {
+  font-family: SnellRoundhand;
+  font-size: 2.5em;
+  text-align: center;
+}
+
+.verdana {
+  font-family: Verdana;
+  font-size: 2.5em;
+  text-align: center;
+  padding-bottom: .5em;
+}
