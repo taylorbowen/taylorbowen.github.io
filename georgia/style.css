@@ -7,6 +7,10 @@
   width: 50%;
   }
 
+  .columns-2 .col-2 {
+    float:left;
+    width: 50%;
+    }
 
 }
 
@@ -89,7 +93,7 @@ footer {
     font-size: 1.1em;
     color: white;
     line-height: 1.1em;
-    padding-bottom: 2.92em;
+    padding-bottom: 2.9em;
     padding-right: 2em;
     padding-left: 2em;
   }
@@ -117,7 +121,8 @@ footer {
     }
 
 .type {
-  margin-top: 2.5em;
+  margin-top: 2em;
+  padding-right: .5em;
 }
 
     .space-top {
@@ -176,7 +181,7 @@ footer {
 
 .glyphs {
   padding-top: 2em;
-  margin-left: 4em;
+  margin-left: 2.8em;
 }
 
 .bottom-heading-1 {
@@ -206,4 +211,3 @@ footer {
   text-align: center;
   padding-bottom: .5em;
 }
-
