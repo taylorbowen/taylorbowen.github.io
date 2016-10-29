@@ -181,7 +181,7 @@ footer {
 
 .glyphs {
   padding-top: 1.9em;
-  margin-left: 2em;
+  margin-left: 2.2em;
 }
 
 .bottom-heading-1 {
@@ -200,7 +200,7 @@ footer {
 }
 
 .snell-roundhand {
-  font-family: SnellRoundhand;
+  font-family: SnellRoundhand, cursive;
   font-size: 2.5em;
   text-align: center;
 }
