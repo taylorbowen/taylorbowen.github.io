@@ -9,7 +9,7 @@
 
   .columns-2 .col-2 {
     float:left;
-    width: 60%;
+    width: 50%;
     }
 
 }
@@ -180,8 +180,8 @@ footer {
 }
 
 .glyphs {
-  display: block;
-  margin: 0 auto;
+  padding-top: 1.9em;
+  padding-left: .5em;
 }
 
 .bottom-heading-1 {
