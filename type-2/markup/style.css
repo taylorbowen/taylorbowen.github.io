@@ -41,7 +41,7 @@ nav.inline a {
 	padding: 1em;
 	border: 0;
   font-family: Allan;
-  font-size: 1.2em;
+  font-size: 1em;
 }
 
 nav.inline a:hover {
@@ -54,7 +54,7 @@ ul.assignment {
   margin-left: 10em;
   margin-bottom: 5em;
   margin-right: 10em;
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 
 li.assignment{
