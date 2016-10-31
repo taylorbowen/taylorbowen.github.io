@@ -31,7 +31,7 @@ h1 {
 }
 
 h2 {
-  font-family: American Typewriter;
+  font-family: American Typewriter, monospace;
   font-weight: normal;
   font-size: 5em;
   line-height: 0;
@@ -75,35 +75,11 @@ nav.inline a:hover {
 	background: #666;
 }
 
-.summary {
-  font-family: American Typewriter;
-  font-weight: normal;
-  font-size: 1em;
-}
 
-.assignment {
-  font-family: Allan;
-  font-weight: normal;
-  font-size: 1.2em;
-}
 
-.format {
-  font-family: Allan;
-  font-weight: normal;
-  font-size: 1.2em;
-}
 
-.discript {
-  font-family: American Typewriter, monospace;
-  font-weight: normal;
-  font-size: 1em;
-}
 
-.summary {
-    font-family: Allan;
-    font-weight: normal;
-    font-size: 1.2em;
-}
+
 
 .col {
   margin-right: 2em;
