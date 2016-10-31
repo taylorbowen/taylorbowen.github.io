@@ -1,0 +1,63 @@
+/*styles*/
+
+h1{
+  font-family: Allan;
+  font-weight: normal;
+  font-size: 7em;
+  text-align: center;
+  margin-top: .5em;
+}
+
+
+nav ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+nav.inline ul {
+	text-align: center;
+	background: #000;
+	margin: 0;
+}
+
+nav.inline li {
+	display: inline;
+	margin-right: -.25em; /* tighten-up gaps (letter-spacing) */
+}
+
+nav.inline a {
+	display: inline-block;;
+	color: #fff;
+	background: #000;
+	padding: 1em;
+	border: 0;
+  font-family: Allan;
+  font-size: 1.2em;
+}
+
+nav.inline a:hover {
+	background: #666;
+}
+
+ul.assignment {
+  font-family: American Typewriter;
+  list-style: circle;
+  margin-left: 10em;
+  margin-bottom: 5em;
+  margin-right: 10em;
+  font-size: 1.5em;
+}
+
+li.assignment{
+  display: inline;
+}
+
+li a {
+	display: inline-block;
+	color: #fff;
+	background: #000;
+	padding: .2em;
+	border: 0;
+  font-family: Allan;
+  font-size: 1em;
+}
