@@ -8,6 +8,13 @@
   font-style: normal;
 }
 
+@font-face {
+	font-family: 'Veteran Typewriter';
+	src: url ('fonts/veteran_typewriter-webfont.woff') format ('woff'),
+	     url ('fonts/veteran_typewriter-webfont.woff2') format ('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
 
 h1{
   font-family: Allan;
@@ -49,7 +56,7 @@ nav.inline a:hover {
 }
 
 ul.assignment {
-  font-family: American Typewriter;
+  font-family: Veteran Typewriter;
   list-style: circle;
   margin-left: 10em;
   margin-bottom: 5em;
