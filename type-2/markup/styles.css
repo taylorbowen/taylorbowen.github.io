@@ -17,6 +17,14 @@
   font-style: normal;
 }
 
+@font-face {
+	font-family: 'Verteran Typewriter';
+	src: url ('fonts/veteran_typewriter-webfont.woff') format ('woff'),
+	     url ('fonts/veteran_typewriter-webfont.woff2') format ('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+
 header {
   text-align: center;
 }
@@ -93,7 +101,7 @@ nav.inline a:hover {
 }
 
 .discript {
-  font-family: American Typewriter;
+  font-family: American Typewriter, Veteran Typewriter;
   font-weight: normal;
   font-size: 1em;
 }
