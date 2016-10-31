@@ -56,7 +56,7 @@ nav.inline a:hover {
 }
 
 ul.assignment {
-  font-family: AmericanTypewriter, VeteranTypewriter;
+  font-family: VeteranTypewriter;
   list-style: circle;
   margin-left: 10em;
   margin-bottom: 5em;
