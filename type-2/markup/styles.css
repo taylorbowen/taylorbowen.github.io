@@ -1,14 +1,6 @@
 /*styles*/
 
 
-@media (min-width:60em) {
-
-.columns .col {
-  float:left;
-  width: 40%;
-  }
-}
-
 @font-face {
   font-family: 'Allan';
   src: url('fonts/allan-regular-webfont.woff2') format('woff2'),
@@ -16,7 +8,6 @@
   font-weight: normal;
   font-style: normal;
 }
-
 
 header {
   text-align: center;
@@ -27,13 +18,14 @@ h1 {
   font-weight: normal;
   font-size: 13em;
   line-height: 0;
-  padding-top: .3em;
+  padding-top: .5em;
+  padding-bottom: .2em;
 }
 
 h2 {
   font-family: American Typewriter, monospace;
   font-weight: normal;
-  font-size: 5em;
+  font-size: 4.5em;
   line-height: 0;
   padding-bottom: .8em;
 }
@@ -42,7 +34,7 @@ h3{
   font-family: Allan;
   font-weight: normal;
   font-size: 4em;
-  padding-bottom: .5em;
+  padding-bottom: .7em;
 }
 
 nav ul {
@@ -58,7 +50,7 @@ nav.inline ul {
 
 nav.inline li {
 	display: inline;
-	margin-right: -.25em; /* tighten-up gaps (letter-spacing) */
+	margin-right: -.25em;
 }
 
 nav.inline a {
@@ -73,16 +65,4 @@ nav.inline a {
 
 nav.inline a:hover {
 	background: #666;
-}
-
-
-
-
-
-
-
-.col {
-  margin-right: 2em;
-  padding-left: 4em;
-  padding-top: 2em;
 }
