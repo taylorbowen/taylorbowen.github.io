@@ -1,0 +1,167 @@
+/*printstyles*/
+
+
+@font-face {
+  font-family: 'LeagueGothic';
+  src: url('fonts/leaguegothic-regular-webfont.woff2') format('woff2'),
+       url('fonts/leaguegothic-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+h1 {
+  width: 6.5em;
+  text-align: center;
+  border-top: 1em solid #041;
+  margin: 0 auto;
+  margin-bottom: 1.2em;
+}
+
+h1:before {
+  display: block;
+  position: relative;
+  top: -.625em;
+  content: "";
+  border-top: .3em dashed #cd5;
+}
+
+/*h1{font-family: LeagueGothic;
+   font-weight:bold;
+   font-size: 5.2em;
+   letter-spacing: .2em;
+   text-align: center;
+   color: lightgreen;
+   background-color: darkgreen;
+
+ }*/
+
+ .long{
+    font-family: LeagueGothic;
+    font-weight:bold;
+    font-size: 3em;
+    letter-spacing: .1em;
+    text-align: center;
+    color: #cd5;
+    background-color: #041;
+
+  }
+
+h2{  width: 10em;
+  text-align: center;
+  border-bottom: 1em solid #041;
+  margin: 0 auto;
+  margin-top: 1em;
+ }
+
+ h2:after {
+   display: block;
+   position: relative;
+   bottom: -.7em;
+   content: "";
+   border-bottom: .5em dashed #cd5;
+ }
+
+h3{font-family: Avenir;
+   font-weight: bold;
+   font-size: 6em;
+   text-align: center;
+ }
+
+ h5{
+   text-align: center;
+ }
+
+
+.word {
+  display: inline-block;
+  font-family: LeagueGothic;
+  font-weight:bold;
+  font-size: 3.1em;
+  letter-spacing: .1em;
+  text-align: center;
+  color: #cd5;
+  background-color: #041;
+  margin-right: .2em;
+}
+
+.word-o {
+  font-family: LeagueGothic;
+  font-weight:bold;
+  font-size: 3.1em;
+  letter-spacing: .1em;
+  text-align: center;
+  color: #cd5;
+  background-color: #041;
+  margin-right: .2em;
+}
+
+.word-r {
+  font-family: LeagueGothic;
+  font-weight:bold;
+  font-size: 3.1em;
+  letter-spacing: .1em;
+  text-align: center;
+  color: #cd5;
+  background-color: #041;
+  margin-right: .2em;
+}
+
+.word-d {
+  font-family: LeagueGothic;
+  font-weight:bold;
+  font-size: 3.1em;
+  letter-spacing: .1em;
+  text-align: center;
+  color: #cd5;
+  background-color: #041;
+  margin-right: .2em;
+}
+
+.live {
+   	display: inline-block;
+   	margin-bottom:  3em;
+    font-family: LeagueGothic;
+    font-size: 3em;
+    color: #cd5;
+    background-color: #041;
+    width: .4em;
+   }
+
+.live-i {
+   	position: relative;
+   	top: 1em;
+    font-family: LeagueGothic;
+    font-size: 3em;
+    margin-left: .9em;
+
+   }
+
+.live-v {
+	position: relative;
+	top: 2em;
+  background-color: #041;
+  font-family: LeagueGothic;
+  font-size: 3em;
+  color: #cd5;
+  margin-left: .9em;
+}
+
+.live-e {
+	position: relative;
+	top: 3em;
+  background-color: #041;
+  width: .1em;
+  font-family: LeagueGothic;
+  font-size: 3em;
+  color: #cd5;
+  margin-left: .9em;
+}
+
+.printed {
+  font-family: AmericanTypewriter;
+  font-weight: normal;
+  font-size: 3.7em;
+  text-align: center;
+
+}
