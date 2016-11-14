@@ -1,0 +1,84 @@
+#head {
+	position: absolute;
+	left: 6.5em;
+	bottom: 7em;
+	font-size: 50%;
+	width: 4em;
+	height: 4em;
+	background: #f5b;
+	border-radius: 50%;
+}
+
+#eye {
+	position: absolute;
+	left: 4em;
+	bottom: 4.7em;
+	width: .3em;
+	height: .3em;
+	background: #000;
+	border-radius: 50%;
+}
+
+#beak {
+		position: absolute;
+		left: 16.9em;
+		font-size: 5%;
+		width: 0;
+		height:0;
+		line-height: 0;
+		border: 1em dashed transparent;
+		border-top: 0;
+		border-bottom: 2em solid #000;
+		transform : rotate(23deg);
+}
+
+#neck {
+	position: absolute;
+	left: 3.5em;
+	font-size: 100%;
+	width: .5em;
+	height: 1.8em;
+	background: #f5b;
+}
+
+#body {
+	position: relative;
+	font-size: 200%;
+	width: 4em;
+	height: 4em;
+	background: #f5b;
+	border-radius: 50%;
+	margin-top: 5em;
+	margin-left: .5em;
+}
+
+#feathers {
+	position: absolute;
+	top: .1em;
+	left: .2em;
+	font-size: 150%;
+	width: 2em;
+	height: 2em;
+	background: #f8c;
+	border-radius: 50%;
+}
+
+#leg {
+	position: absolute;
+	top: 4em;
+	left: 1.9em;
+	font-size: 100%;
+	width: .2em;
+	height: 5em;
+	background: #f8c;
+}
+
+#knee {
+	position: absolute;
+	top: 6em;
+	left: 1.9em;
+	font-size: 100%;
+	width: .2em;
+	height: .5em;
+	background: #f5b;
+}
