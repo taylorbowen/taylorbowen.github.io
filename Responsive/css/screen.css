@@ -76,7 +76,7 @@ article {
 }
 
 h1 {
-  font-family: Century serif;
+  font-family: Century, Georgia, serif;
   font-size: 1.5em;
   font-weight: bold;
   line-height: 1em;
@@ -85,7 +85,7 @@ h1 {
 }
 
 h2 {
-  font-family: Univers LT Std;
+  font-family: Univers LT Std, sans-serif;
   font-size: 1.2em;
   font-weight: bold;
   color: #175DA2;
@@ -94,7 +94,7 @@ h2 {
 }
 
 h3 {
-  font-family: Univers LT Std;
+  font-family: Univers LT Std, sans-serif;
   font-size: .90em;
   font-weight: normal;
   line-height: .1em;
@@ -103,7 +103,7 @@ h3 {
 }
 
 h4 {
-  font-family: Univers LT Std;
+  font-family: Univers LT Std, sans-serif;
   font-size: 3em;
   font-weight: bold;
   text-align: center;
@@ -111,7 +111,7 @@ h4 {
 }
 
 h5 {
-  font-family: Univers LT Std;
+  font-family: Univers LT Std, sans-serif;
   font-size: 3.2em;
   font-weight: bold;
   text-align: center;
@@ -119,7 +119,7 @@ h5 {
 }
 
 h6 {
-  font-family: Univers LT Std;
+  font-family: Univers LT Std, sans-serif;
   font-size: 3.3em;
   font-weight: bold;
   text-align: center;
@@ -128,7 +128,7 @@ h6 {
 }
 
 .h7 {
-  font-family: Century serif;
+  font-family: Century, Georgia, serif;
   font-size: 3.3em;
   font-weight: bold;
   text-align: center;
@@ -136,7 +136,7 @@ h6 {
 }
 
 .h8 {
-  font-family: Century serif;
+  font-family: Century, Georgia, serif;
   font-size: 3.3em;
   font-weight: bold;
   text-align: center;
@@ -144,7 +144,7 @@ h6 {
 }
 
 p {
-  font-family: Century serif;
+  font-family: Century, Georgia, serif;
   font-size: 1.1em;
   line-height: 1.28em;
 }
@@ -159,7 +159,7 @@ ul {
 }
 
 li {
-  font-family: Univers LT Std;
+  font-family: Univers LT Std, sans-serif;
   font-weight: lighter;
   font-size: 1em;
   line-height: 1.2em;
