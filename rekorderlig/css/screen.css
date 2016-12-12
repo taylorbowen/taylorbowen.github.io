@@ -1,0 +1,146 @@
+@font-face {
+  font-family: 'Marcellus';
+  src: url('font/marcellus/marcellus-regular-webfont.woff') format('woff2'),
+       url('font/marcellus/marcellus-regular-webfont.woff2') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'PT Sans';
+  src: url('font/ptsans/pt_sans-web-regular-webfont.woff') format('woff2'),
+       url('font/ptsans/pt_sans-web-regular-webfont.woff2') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'PT Sans Bold';
+  src: url('font/ptsans/pt_sans-web-bold-webfont.woff') format('woff2'),
+       url('font/ptsans/pt_sans-web-bold-webfont.woff2') format('woff');
+  font-weight: bold;
+  font-style: normal;
+
+}
+
+body {
+  background: radial-gradient(rgb(244, 202, 122), rgb(231, 151, 0));
+
+}
+
+
+header {
+  background-color: #390;
+  margin-top: -.9em;
+}
+
+h1 {
+  font-family: Marcellus;
+  text-align: center;
+  font-size: 1.5em;
+  line-height: .3em;
+  letter-spacing: .045em;
+  color: #fff;
+  padding-top: 1.3em;
+}
+
+h2 {
+  font-family: Marcellus;
+  text-align: center;
+  font-size: 1.5em;
+  line-height: .02em;
+  letter-spacing: .045em;
+  color: #fff;
+  padding-bottom: 1.3em;
+  !border-bottom: solid 3px #390;
+}
+
+.r {
+  font-size: 1.2em;
+}
+
+.g {
+  font-size: 1.2em;
+}
+
+h3 {
+  font-family: PT Sans;
+  font-size: 3em;
+  line-height: .01em;
+  color: #fff;
+  text-align: center;
+  margin-right: 3em;
+}
+
+h4 {
+  font-family: PT Sans;
+  font-size: 1.5em;
+  line-height: .02em;
+  text-align: center;
+  color: #390;
+  margin-right: 6em;
+}
+
+p {
+  font-family: PT Sans Bold;
+  font-size: 1em;
+  margin-right: 7.5em;
+  color: #333;
+  text-align: center;
+}
+
+section {
+  float: left;
+  margin-top: 1.5em;
+  margin-left: 5.5em;
+}
+
+aside {
+  float: right;
+  margin-top: 6em;
+  margin-right: 3em;
+
+}
+
+.middle {
+  vertical-align: .125em;
+}
+
+footer {
+  clear: both;
+  background: #390;
+  margin-bottom: -1em;
+}
+
+nav ul {
+	list-style: none;
+	padding-left: 0;
+  padding-bottom: .2em;
+  font-family: Marcellus;
+}
+
+nav.inline ul {
+	text-align: center;
+	margin: 0;
+}
+
+nav.inline li {
+	display: inline;
+	margin-right: -.25em;
+}
+
+nav.inline a {
+	display: inline-block;
+	color: #fff;
+	padding: 1em;
+	border: 0;
+  font-family: Marcellus;
+  font-size: 1.2em;
+  text-decoration: none;
+}
+
+nav.inline a:hover {
+	color: #fff;
+}
