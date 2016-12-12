@@ -25,6 +25,15 @@
 
 }
 
+@media (min-width: 60em) {
+	
+	main {
+		width:100%;
+		font-size: 100%;
+	}
+	
+}
+
 body {
   background: radial-gradient(rgb(244, 202, 122), rgb(231, 151, 0));
 
