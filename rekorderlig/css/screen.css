@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'Marcellus';
-  src: url('font/marcellus/marcellus-regular-webfont.woff') format('woff2'),
-       url('font/marcellus/marcellus-regular-webfont.woff2') format('woff');
+  src: url('../font/marcellus/marcellus-regular-webfont.woff') format('woff2'),
+       url('../font/marcellus/marcellus-regular-webfont.woff2') format('woff');
   font-weight: normal;
   font-style: normal;
 
@@ -9,8 +9,8 @@
 
 @font-face {
   font-family: 'PT Sans';
-  src: url('font/ptsans/pt_sans-web-regular-webfont.woff') format('woff2'),
-       url('font/ptsans/pt_sans-web-regular-webfont.woff2') format('woff');
+  src: url('../font/ptsans/pt_sans-web-regular-webfont.woff') format('woff2'),
+       url('../font/ptsans/pt_sans-web-regular-webfont.woff2') format('woff');
   font-weight: normal;
   font-style: normal;
 
@@ -18,8 +18,8 @@
 
 @font-face {
   font-family: 'PT Sans Bold';
-  src: url('font/ptsans/pt_sans-web-bold-webfont.woff') format('woff2'),
-       url('font/ptsans/pt_sans-web-bold-webfont.woff2') format('woff');
+  src: url('../font/ptsans/pt_sans-web-bold-webfont.woff') format('woff2'),
+       url('../font/ptsans/pt_sans-web-bold-webfont.woff2') format('woff');
   font-weight: bold;
   font-style: normal;
 
