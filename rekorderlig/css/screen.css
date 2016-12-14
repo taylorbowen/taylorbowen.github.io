@@ -296,7 +296,7 @@ aside {
 footer {
   clear: both;
   background: #390;
-  margin: 2em;
+  margin: 0;
 }
 
 nav ul {
