@@ -1,0 +1,303 @@
+@font-face {
+  font-family: 'MontserratLight';
+  src: url('fonts/montserrat/montserrat-light-webfont.woff2') format('woff2'),
+       url('fonts/montserrat/montserrat-light-webfont.woff') format('woff');
+  font-weight: light;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'MontserratMedium';
+  src: url('fonts/montserrat/montserrat-medium-webfont.woff2') format('woff2'),
+       url('fonts/montserrat/montserrat-medium-webfont.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('fonts/montserrat/montserrat-regular-webfont.woff2') format('woff2'),
+       url('fonts/montserrat/montserrat-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'Marcellus';
+  src: url('fonts/marcellus/marcellus-regular-webfont.woff2') format('woff2'),
+       url('fonts/marcellus/marcellus-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+@media (min-width: 60em) {
+
+  .title h2 {
+    font-size: 110%;
+    margin-left: 15em;
+    margin-top: 2em;
+  }
+
+  .school {
+    margin-top: -2em;
+  }
+
+  .school h3, p {
+    font-size: 110%;
+    margin-right: 5em;
+
+  }
+
+  aside .bottom {
+    margin-bottom: 3em;
+  }
+
+  .width {
+    width: 85%;
+  }
+
+  .work {
+    font-size: 130%;
+    margin-left: 8em;
+    margin-right: 6em;
+  }
+
+  .year p {
+    font-size: 90%;
+    line-height: 0;
+  }
+
+
+  .list {
+    font-size: 110%;
+  }
+
+  h2 {
+    font-size: 130%;
+  }
+
+  blockquote {
+    margin-right: 20em;
+  }
+
+  .school {
+    font-size: 110%;
+  }
+
+  .title {
+    font-size: 130%;
+    margin-left: 5em;
+  }
+
+  #computer {
+    font-size: 180%;
+    margin: 0 1.5%;
+    width: 30%;
+    padding-left: 8.5em;
+    padding-top: 1em;
+  }
+
+  #other-skills {
+    font-size: 180%;
+    width: 40%;
+    padding-top: 1em;
+    margin-left: 1em;
+  }
+
+}
+
+nav ul {
+	list-style: none;
+	padding-left: 0;
+
+
+}
+
+nav.inline ul {
+	text-align: center;
+	margin: 0;
+}
+
+nav.inline li {
+	display: inline;
+	margin-right: 1.25em;
+}
+
+nav.inline a {
+	display: inline-block;
+	color: #fff;
+	border: 0;
+  font-family: Montserrat;
+  font-size: 1em;
+  text-decoration: none;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+nav.inline a:hover {
+	color: #56a;
+}
+
+header {
+  position: relative;
+  margin-top: 0;
+  background-color: #000;
+}
+
+h1 {
+  font-family: MontserratLight;
+  font-size: 1.5em;
+  color: #fff;
+  text-align: center;
+  background: #56a;
+  margin-top: 0;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  clear: both;
+}
+
+section {
+  float: left;
+}
+
+aside {
+  float: right;
+}
+
+.title{
+  clear: both;
+  float: left;
+  margin-left: 1em;
+}
+
+.school{
+  clear: both;
+  float: right;
+  margin-right: 5em;
+}
+
+h2 {
+  font-family: MontserratMedium;
+  font-size: 1em;
+  line-height: .1em;
+  color: #56a;
+}
+
+h3 {
+  font-family: Montserrat;
+  font-size: .9em;
+  line-height: .025em;
+}
+
+p {
+  font-family: MontserratLight;
+  font-size: .8em;
+  line-height: .2em;
+  padding-bottom: 1em;
+}
+
+.aside-2 p {
+  padding-bottom: 3em;
+}
+
+aside .year {
+  font-family: MontserratLight;
+  font-weight: bold;
+}
+
+.year {
+  clear: right;
+  float: right;
+}
+
+.work {
+  clear: left;
+  float: left;
+}
+
+.work a {
+  text-decoration: none;
+  color: #56a;
+}
+
+.work a:hover {
+  color: #000;
+}
+
+.place {
+  font-weight: bold;
+}
+
+.description {
+  line-height: 1.1em;
+  text-align: left;
+}
+
+blockquote {
+  font-family: MontserratLight;
+  color: #666;
+  font-size: .8em;
+}
+
+.aside {
+  clear: right;
+  float: right;
+}
+
+.type {
+  clear: left;
+}
+
+.list ul {
+  list-style: none;
+  font-family: MontserratLight;
+}
+
+footer {
+  clear: both;
+  background-color: #000;
+}
+
+.other {
+  padding-top: 3em;
+  padding-left: 1.3em;
+}
+
+
+.one {
+  font-size: 90%;
+  margin: 0 1.5%;
+  width: 40%;
+  padding-left: 1em;
+  padding-top: 1em;
+}
+
+#other-skills {
+  margin-top: -1.8em;
+}
+
+#computer ul {
+  list-style: none;
+  font-family: MontserratLight;
+  font-size: .8em;
+  padding-left: 1.8em;
+  padding-bottom: 2em;
+}
+
+.other {
+  font-size: 90%;
+  margin: 0 1.5%;
+  width: 50%;
+}
+
+#other-skills ul {
+  list-style: none;
+  font-family: MontserratLight;
+  font-size: .8em;
+  padding-right: 1em;
+}
