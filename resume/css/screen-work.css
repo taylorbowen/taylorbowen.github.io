@@ -1,0 +1,284 @@
+@font-face {
+  font-family: 'MontserratLight';
+  src: url('fonts/montserrat/montserrat-light-webfont.woff2') format('woff2'),
+       url('fonts/montserrat/montserrat-light-webfont.woff') format('woff');
+  font-weight: light;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'MontserratMedium';
+  src: url('fonts/montserrat/montserrat-medium-webfont.woff2') format('woff2'),
+       url('fonts/montserrat/montserrat-medium-webfont.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('fonts/montserrat/montserrat-regular-webfont.woff2') format('woff2'),
+       url('fonts/montserrat/montserrat-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'Marcellus';
+  src: url('fonts/marcellus/marcellus-regular-webfont.woff2') format('woff2'),
+       url('fonts/marcellus/marcellus-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+nav ul {
+	list-style: none;
+	padding-left: 0;
+
+}
+
+nav.inline ul {
+	text-align: center;
+	margin: 0;
+}
+
+nav.inline li {
+	display: inline;
+	margin-right: 1.25em;
+}
+
+nav.inline a {
+	display: inline-block;
+	color: #fff;
+	border: 0;
+  font-family: Montserrat;
+  font-size: 1em;
+  text-decoration: none;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+nav.inline a:hover {
+	color: #cbf;
+}
+
+header {
+  position: relative;
+  margin-top: 0;
+  background-color: #000;
+}
+
+#letterpress {
+  background-color: #cbf;
+}
+
+h1 {
+  font-family: MontserratMedium;
+  font-size: 1.5em;
+  text-align: center;
+  margin-top: auto;
+  padding-top: 3.5em;
+}
+
+p {
+  font-family: Montserrat;
+  font-size: .9em;
+  color: #fff;
+  text-align: center;
+  letter-spacing: .045em;
+  word-spacing: .1em;
+  line-height: .1em;
+  padding-bottom: 5.5em;
+}
+
+
+/* general styles */
+
+!body {
+	width: 90%;
+	max-width: 60em;
+	margin: 0 auto;
+}
+
+figure,
+figcaption {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+ol {
+  font-family: Montserrat;
+  text-align: center;
+  font-size: .8em
+}
+
+/* --- gallery --- */
+
+/* gallery structure */
+
+.gallery {
+	max-width: 30em; /* max-width of images with controls (prev/next) */
+	margin: auto;
+  overflow: hidden; /* Hide slides, except for current slide */
+}
+
+.gallery ol {
+  list-style: none;
+  width: 1200%; /* Number of slides x 100% */
+  padding-left: 0;
+}
+
+/* gallery slide(s) */
+
+.gallery li {
+  position: relative;
+  float: left;
+  width:8.333333%; /* 100% divided by number of slides */
+  overflow: hidden;
+}
+
+.gallery figure {
+ display: block;
+ width: 90%;
+ margin: 0 auto;
+}
+
+/* gallery controls */
+
+.gallery .controls {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 5%;
+  height: 100%;
+  text-align: center;
+  text-decoration: none;
+}
+
+.gallery .next {
+  right: 0;
+  left: auto;
+}
+
+.gallery .controls div {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  line-height: 0;
+  border: 1em dashed transparent;
+  border-left: 0;
+  border-right: 1em solid #cbf;
+  margin: auto 0;
+}
+
+.gallery .next div {
+  left: auto;
+  right: 0;
+  border-right: 0;
+  border-left: 1em solid #cbf;
+}
+
+/* :hover */
+
+.gallery .prev:hover div {
+  border-right-color: #999;
+}
+
+.gallery .next:hover div {
+  border-left-color: #999;
+}
+
+#georgia {
+  background-color: #d9c;
+  margin-top: 5em;
+}
+
+#georgia-img {
+  display: block;
+  width: 500px;
+  margin: 0 auto;
+  border: 2px solid #aaa;
+}
+
+.top {
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+
+.button {
+  font-family: MontserratLight;
+  font-size: .8em;
+  letter-spacing: .1em;
+  color: #000;
+  text-align: center;
+}
+
+.button a {
+  text-decoration: none;
+  color: #000;
+  display: inline-block;
+  margin: 0 auto;
+  border: 1px solid #d9c;
+  padding-top: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+  padding-left: 1em;
+}
+
+.button a:hover {
+  color: #d9c;
+}
+
+.rekorderlig {
+  background-color: #fc7;
+  margin-top: 4em;
+}
+
+#rekorderlig-img {
+  display: block;
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+.button-2 {
+  font-family: MontserratLight;
+  font-size: .8em;
+  letter-spacing: .1em;
+  color: #000;
+  text-align: center;
+}
+
+.button-2 a {
+  text-decoration: none;
+  color: #000;
+  display: inline-block;
+  margin: 0 auto;
+  border: 1px solid #fc7;
+  padding-top: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+  padding-left: 1em;
+}
+
+.button-2 a:hover {
+  color: #fc7;
+}
+
+footer {
+  position: relative;
+  margin-top: 5em;
+  background-color: #000;
+}
