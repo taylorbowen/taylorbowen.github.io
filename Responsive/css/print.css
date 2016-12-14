@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+}
+
+article {
+  width: 75%;
+  font-size: 95%;
+  max-width: 75em;
+  margin: auto;
+}
+
+
+h1 {
+  font-family: Century;
+  font-size: 1.5em;
+  font-weight: bold;
+  line-height: 1em;
+  margin-top: 2.5em;
+  text-align: center;
+}
+
+h2 {
+  font-family: Univers LT Std;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #175DA2;
+  padding-top: 2em;
+  padding-bottom: .025em;
+}
+
+h3 {
+  font-family: Univers LT Std;
+  font-size: .90em;
+  font-weight: normal;
+  line-height: .1em;
+  padding-bottom: 3em;
+  text-align: center;
+}
+
+h4 {
+  font-family: Univers LT Std;
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  line-height: .1em;
+}
+
+h5 {
+  font-family: Univers LT Std;
+  font-size: 2.2em;
+  font-weight: bold;
+  text-align: center;
+  line-height: .1em;
+}
+
+h6 {
+  font-family: Univers LT Std;
+  font-size: 2.3em;
+  font-weight: bold;
+  text-align: center;
+  line-height: .1em;
+  padding-bottom: -3em;
+}
+
+.h7 {
+  font-family: Century;
+  font-size: 2.3em;
+  font-weight: bold;
+  text-align: center;
+  line-height: .1em;
+}
+
+.h8 {
+  font-family: Century;
+  font-size: 2.3em;
+  font-weight: bold;
+  text-align: center;
+  line-height: .1em;
+}
+
+p {
+  font-family: Century;
+  font-size: 1.1em;
+  line-height: 1.28em;
+}
+
+a {
+  color: #175DA2;
+  text-decoration: none;
+}
+
+ul {
+  margin-left: -2.8em;
+}
+
+li {
+  font-family: Univers LT Std;
+  font-weight: lighter;
+  font-size: 1em;
+  line-height: 1.2em;
+}
+
+img {
+max-width:60%;
+height: auto;
+display:block;
+margin: 0 auto;
+}
+
+.mini {
+  font-size: 75%;
+}
