@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'Marcellus';
-  src: url('../font/marcellus/marcellus-regular-webfont.woff') format('woff2'),
-       url('../font/marcellus/marcellus-regular-webfont.woff2') format('woff');
+  src: url('font/marcellus/marcellus-regular-webfont.woff') format('woff2'),
+       url('font/marcellus/marcellus-regular-webfont.woff2') format('woff');
   font-weight: normal;
   font-style: normal;
 
@@ -9,8 +9,8 @@
 
 @font-face {
   font-family: 'PT Sans';
-  src: url('../font/ptsans/pt_sans-web-regular-webfont.woff') format('woff2'),
-       url('../font/ptsans/pt_sans-web-regular-webfont.woff2') format('woff');
+  src: url('font/ptsans/pt_sans-web-regular-webfont.woff') format('woff2'),
+       url('font/ptsans/pt_sans-web-regular-webfont.woff2') format('woff');
   font-weight: normal;
   font-style: normal;
 
@@ -18,20 +18,196 @@
 
 @font-face {
   font-family: 'PT Sans Bold';
-  src: url('../font/ptsans/pt_sans-web-bold-webfont.woff') format('woff2'),
-       url('../font/ptsans/pt_sans-web-bold-webfont.woff2') format('woff');
+  src: url('font/ptsans/pt_sans-web-bold-webfont.woff') format('woff2'),
+       url('font/ptsans/pt_sans-web-bold-webfont.woff2') format('woff');
   font-weight: bold;
   font-style: normal;
 
 }
 
+@media (min-width: 15em) {
+
+  main {
+    width: 100%;
+  }
+
+  aside {
+    margin-bottom: 4em;
+  }
+
+  aside p {
+    font-size: 75%;
+    margin-top: -1em;
+    margin-left: .5em;
+    text-align: center;
+    width: 110%;
+  }
+
+  aside h3 {
+    font-size: 190%;
+    text-align: center;
+    width: 110%;
+}
+
+  aside h4 {
+    font-size: 140%;
+    text-align: center;
+    width: 110%;
+  }
+
+  img {
+    max-width:110%;
+    height: auto;
+    display:block;
+    margin-left: -4em;
+    margin-bottom: -5em;
+  }
+
+  nav ul {
+    margin-top: 1em;
+    font-size: 55%;
+  }
+
+
+}
+
+@media (min-width: 30em) {
+
+
+  main {
+    width: 100%;
+  }
+
+
+  aside {
+    margin-bottom: 4em;
+  }
+
+  aside p {
+    font-size: 85%;
+    margin-top: -1em;
+    margin-left: .5em;
+    text-align: center;
+    width: 105%;
+  }
+
+  aside h3 {
+    font-size: 230%;
+    text-align: center;
+    width: 105%;
+}
+
+  aside h4 {
+    font-size: 150%;
+    text-align: center;
+    width: 105%;
+  }
+
+  img {
+    max-width:90%;
+    height: auto;
+    display:block;
+    margin-left: -2em;
+    margin-bottom: -5em;
+  }
+
+  nav ul {
+    margin-top: 1em;
+    font-size: 70%;
+  }
+
+}
+
+@media (min-width: 45em) {
+
+  main {
+    width: 100%;
+  }
+
+  aside {
+    margin-bottom: 4em;
+    padding-right: 1em;
+    max-width: 30%;
+  }
+
+  aside p {
+    font-size: 80%;
+    margin-top: -1em;
+    margin-left: .5em;
+    text-align: center;
+    width: 115%;
+  }
+
+  aside h3 {
+    font-size: 185%;
+    text-align: center;
+    width: 115%;
+}
+
+  aside h4 {
+    font-size: 125%;
+    text-align: center;
+    width: 115%;
+  }
+
+  img {
+    max-width:100%;
+    height: auto;
+    display:block;
+    margin-left: -5.5em;
+    margin-bottom: 3em;
+  }
+
+  nav ul {
+    margin-top: 1em;
+    font-size: 85%;
+  }
+
+}
+
 @media (min-width: 60em) {
-	
-	main {
-		width:100%;
-		font-size: 130%;
-	}
-	
+
+  main {
+    width: 100%;
+  }
+
+  aside {
+    margin-bottom: 4em;
+    padding-right: 6em;
+  }
+
+  aside p {
+    font-size: 100%;
+    margin-top: -1em;
+    margin-left: .5em;
+    text-align: center;
+    width: 105%;
+  }
+
+  aside h3 {
+    font-size: 245%;
+    text-align: center;
+    width: 105%;
+}
+
+  aside h4 {
+    font-size: 185%;
+    text-align: center;
+    width: 105%;
+  }
+
+  img {
+    max-width:110%;
+    height: auto;
+    display:block;
+    margin-left: -3em;
+    margin-bottom: 2em;
+  }
+
+  nav ul {
+    margin-top: 1em;
+    font-size: 85%;
+  }
 }
 
 body {
@@ -95,21 +271,21 @@ h4 {
 p {
   font-family: PT Sans Bold;
   font-size: 1em;
-  margin-right: 7.5em;
+  margin-right: 6em;
   color: #333;
-  text-align: center;
 }
 
 section {
   float: left;
-  margin-top: 1.5em;
-  margin-left: 5.5em;
+  margin-top: 2.5em;
+  margin-left: 5em;
+  margin-bottom: 3.5em;
 }
 
 aside {
   float: right;
   margin-top: 6em;
-  margin-right: 3em;
+  margin-right: 2em;
 
 }
 
@@ -120,13 +296,13 @@ aside {
 footer {
   clear: both;
   background: #390;
-  margin-bottom: -1em;
+  margin: auto;
 }
 
 nav ul {
 	list-style: none;
 	padding-left: 0;
-  padding-bottom: .2em;
+  !padding-bottom: .2em;
   font-family: Marcellus;
 }
 
@@ -153,3 +329,4 @@ nav.inline a {
 nav.inline a:hover {
 	color: #fff;
 }
+
