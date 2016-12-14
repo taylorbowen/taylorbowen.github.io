@@ -1,0 +1,183 @@
+@font-face {
+  font-family: 'MontserratLight';
+  src: url('fonts/montserrat/montserrat-light-webfont.woff2') format('woff2'),
+       url('fonts/montserrat/montserrat-light-webfont.woff') format('woff');
+  font-weight: light;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'MontserratMedium';
+  src: url('fonts/montserrat/montserrat-medium-webfont.woff2') format('woff2'),
+       url('fonts/montserrat/montserrat-medium-webfont.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('fonts/montserrat/montserrat-regular-webfont.woff2') format('woff2'),
+       url('fonts/montserrat/montserrat-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'Marcellus';
+  src: url('fonts/marcellus/marcellus-regular-webfont.woff2') format('woff2'),
+       url('fonts/marcellus/marcellus-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+body {
+}
+
+h1 {
+  font-family: MontserratMedium;
+  text-align: center;
+  font-size: 2em;
+  color: #fbc;
+  margin-top: auto;
+  padding-top: 3.5em;
+  padding-bottom: 3.5em;
+}
+
+!section.me::before {
+  display: block;
+  position: absolute;
+  margin-top: -7em;
+  margin-left: 0;
+  width: 99%;
+  height: 100%;
+  content: "";
+  background-image: url(../img/about-me.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: -1;
+  opacity: .5;
+}
+
+h2 {
+  font-family: Montserrat;
+  text-align: center;
+  font-size: 1.5em;
+  color: #fff;
+  background-color: #fbc;
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+
+h2 a {
+  text-decoration: none;
+  color: #fff;
+}
+
+h2 a:hover {
+	color: #000;
+}
+
+h3 {
+  font-family: MontserratMedium;
+  text-align: center;
+  font-size: 1.5em;
+  color: #fbc;
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+
+h3 a {
+  text-decoration: none;
+  color: #fbc;
+}
+
+h3 a:hover {
+	color: #000;
+}
+
+nav ul {
+	list-style: none;
+	padding-left: 0;
+
+}
+
+nav.inline ul {
+	text-align: center;
+	margin: 0;
+}
+
+nav.inline li {
+	display: inline;
+	margin-right: 1.25em;
+}
+
+nav.inline a {
+	display: inline-block;
+	color: #fff;
+	border: 0;
+  font-family: Montserrat;
+  font-size: 1em;
+  text-decoration: none;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+nav.inline a:hover {
+	color: #fbc;
+}
+
+header {
+  position: relative;
+  margin-top: 0;
+  background-color: #000;
+}
+
+.different {
+  background-color: #fbc;
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+
+h4 {
+  font-family: Montserrat;
+  text-align: center;
+  font-size: 1.5em;
+  line-height: .025em;
+  color: #fff;
+}
+
+p {
+  font-family: Montserrat;
+  font-size: .8em;
+  line-height: .025em;
+  color: #fff;
+  text-align: center;
+}
+
+footer {
+  position: relative;
+  margin-top: 0;
+  background-color: #000;
+}
+
+
+!section {
+    positon: relative;
+}
+
+!section::before {
+  display: block;
+  position: absolute;
+  width: 99%;
+  height: 100%;
+  content: "";
+  background-image: url(../img/about-me.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: -1;
+  opacity: .5;
+}
