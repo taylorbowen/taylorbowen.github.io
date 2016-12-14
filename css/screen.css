@@ -1,0 +1,217 @@
+@font-face {
+  font-family: 'Quicksand';
+  src: url('fonts/quicksand-regular-webfont.woff2') format('woff2'),
+       url('fonts/quicksand-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'QuicksandBold';
+  src: url('fonts/quicksand-medium-webfont.woff2') format('woff2'),
+       url('fonts/quicksand-medium-webfont.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'QuicksandLight';
+  src: url('fonts/quicksand-light-webfont.woff2') format('woff2'),
+       url('fonts/quicksand-light-webfont.woff') format('woff');
+  font-weight: light;
+  font-style: normal;
+
+}
+
+@media (min-width: 15em) {
+
+  main {
+    font-size: 95%;
+    width: 100%;
+  }
+
+  .heading-1 {
+    padding-left: -.1em;
+    font-size: 1em;
+  }
+
+  #web ul {
+    padding-left: .7em;
+    font-size: .9em;
+  }
+
+  .heading-2 {
+    padding-left: 1em;
+    font-size: 1em;
+  }
+
+  #type ul {
+    padding-left: 2em;
+    font-size: .9em;
+  }
+
+
+}
+
+@media (min-width: 30em) {
+
+  main {
+    font-size: 125%;
+  }
+
+  .heading-1 {
+    padding-left: -.1em;
+  }
+
+  #web ul {
+    padding-left: 1.5em;
+  }
+
+  .heading-2 {
+    padding-left: 2em;
+  }
+
+  #type ul {
+    padding-left: 4em;
+  }
+
+
+}
+
+@media (min-width: 45em) {
+
+  main {
+    font-size: 145%;
+  }
+
+  .heading-1 {
+    padding-left: 1.5em;
+  }
+
+  #web ul {
+    padding-left: 3.5em;
+  }
+
+  .heading-2 {
+    padding-left: 2.5em;
+  }
+
+  #type ul {
+    padding-left: 3.5em;
+  }
+
+
+}
+
+@media (min-width: 55em) {
+
+  main {
+    font-size: 155%;
+  }
+
+  .heading-1 {
+    padding-left: 1em;
+  }
+
+  #web ul {
+    padding-left: 3em;
+  }
+
+  .heading-2 {
+    padding-left: 2.5em;
+  }
+
+  #type ul {
+    padding-left: 3.5em;
+  }
+
+
+}
+
+
+@media (min-width: 60em) {
+
+  main {
+    font-size: 165%;
+  }
+
+  .heading-1 {
+    padding-left: 4.5em;
+  }
+
+  #web ul {
+    padding-left: 7.5em;
+  }
+
+  .heading-2 {
+    padding-left: 2em;
+  }
+
+  #type ul {
+    padding-left: 4em;
+  }
+
+
+}
+
+body {
+  margin: 0;
+  position: relative;
+  background-color: #acb;
+}
+
+main {
+  width: 90%;
+  max-width: 60em;
+  margin: auto;
+}
+
+h1 {
+  font-family: Quicksand;
+  text-align: center;
+  font-size: 2.5em;
+  color: #fff;
+  line-height: .2em;
+  margin-top: 1.5em;
+}
+
+h2 {
+  font-family: QuicksandBold;
+  text-align: center;
+  color: #aec;
+  line-height: .1em;
+  letter-spacing: .025em;
+  padding-bottom: 1em;
+}
+
+h3 {
+  font-family: QuicksandLight;
+}
+
+section {
+  float: left;
+  margin: 0 1.5%;
+  width: 45%;
+}
+aside {
+  float: right;
+  margin: 0 1.5%;
+  width: 45%;
+}
+
+
+ul {
+  list-style: circle;
+}
+
+ul a {
+  text-decoration: none;
+  color: #fff;
+  font-family: Quicksand;
+}
+
+ul a:hover {
+  color: #aec;
+}
