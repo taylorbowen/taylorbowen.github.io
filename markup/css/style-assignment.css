@@ -1,0 +1,78 @@
+/*styles*/
+
+@font-face {
+  font-family: 'Allan';
+  src: url('fonts/allan-regular-webfont.woff2') format('woff2'),
+       url('fonts/allan-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+h1{
+  font-family: Allan;
+  font-weight: normal;
+  font-size: 7em;
+  text-align: center;
+  margin-top: .5em;
+  margin-bottom: 1em;
+  padding-bottom: .1em;
+  background: #000;
+  color: #fff;
+}
+
+
+nav ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+nav.inline ul {
+	text-align: center;
+	background: #000;
+	margin: 0;
+}
+
+nav.inline li {
+	display: inline;
+	margin-right: -.25em;
+}
+
+nav.inline a {
+	display: inline-block;;
+	color: #fff;
+	background: #000;
+	padding: 1em;
+	border: 0;
+  font-family: Allan;
+  font-size: 1.5em;
+}
+
+nav.inline a:hover {
+	background: #666;
+}
+
+ul.assignment {
+  font-family: American Typewriter, monospace;
+  list-style: circle;
+  margin-left: 10em;
+  margin-bottom: 12em;
+  margin-right: 10em;
+  font-size: 1.2em;
+  width: 50%;
+  position: relative;;
+}
+
+li.assignment{
+  display: inline-block;
+}
+
+li a {
+	display: inline-block;
+	color: #fff;
+	background: #000;
+	padding: .2em;
+	border: 0;
+  font-family: Allan;
+  font-size: 1em;
+}
