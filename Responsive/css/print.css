@@ -82,6 +82,7 @@ p {
   font-family: Century;
   font-size: 1.1em;
   line-height: 1.28em;
+  margin-top: .5em;
 }
 
 a {
@@ -101,7 +102,7 @@ li {
 }
 
 img {
-max-width:60%;
+max-width:55%;
 height: auto;
 display:block;
 margin: 0 auto;
