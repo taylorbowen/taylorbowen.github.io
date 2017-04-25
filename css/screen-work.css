@@ -1,7 +1,8 @@
+
 @font-face {
   font-family: 'MontserratLight';
-  src: url('fonts/montserrat-light-webfont.woff2') format('woff2'),
-       url('fonts/montserrat-light-webfont.woff') format('woff');
+  src: url('fonts/montserrat/montserrat-light-webfont.woff2') format('woff2'),
+       url('fonts/montserrat/montserrat-light-webfont.woff') format('woff');
   font-weight: light;
   font-style: normal;
 
@@ -9,8 +10,8 @@
 
 @font-face {
   font-family: 'MontserratMedium';
-  src: url('fonts/montserrat-medium-webfont.woff2') format('woff2'),
-       url('fonts/montserrat-medium-webfont.woff') format('woff');
+  src: url('fonts/montserrat/montserrat-medium-webfont.woff2') format('woff2'),
+       url('fonts/montserrat/montserrat-medium-webfont.woff') format('woff');
   font-weight: bold;
   font-style: normal;
 
@@ -18,21 +19,13 @@
 
 @font-face {
   font-family: 'Montserrat';
-  src: url('fonts/montserrat-regular-webfont.woff2') format('woff2'),
-       url('fonts/montserrat-regular-webfont.woff') format('woff');
+  src: url('fonts/montserrat/montserrat-regular-webfont.woff2') format('woff2'),
+       url('fonts/montserrat/montserrat-regular-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 
 }
 
-@font-face {
-  font-family: 'Marcellus';
-  src: url('fonts/marcellus/marcellus-regular-webfont.woff2') format('woff2'),
-       url('fonts/marcellus/marcellus-regular-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-
-}
 
 nav ul {
 	list-style: none;
@@ -73,6 +66,7 @@ header {
 
 #letterpress {
   background-color: #cbf;
+  margin-bottom: 2em;
 }
 
 h1 {
@@ -119,88 +113,11 @@ ol {
   font-size: .8em
 }
 
-/* --- gallery --- */
 
-/* gallery structure */
-
-.gallery {
-	max-width: 30em; /* max-width of images with controls (prev/next) */
-	margin: auto;
-  overflow: hidden; /* Hide slides, except for current slide */
-}
-
-.gallery ol {
-  list-style: none;
-  width: 1200%; /* Number of slides x 100% */
-  padding-left: 0;
-}
-
-/* gallery slide(s) */
-
-.gallery li {
-  position: relative;
-  float: left;
-  width:8.333333%; /* 100% divided by number of slides */
-  overflow: hidden;
-}
-
-.gallery figure {
- display: block;
- width: 90%;
- margin: 0 auto;
-}
-
-/* gallery controls */
-
-.gallery .controls {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 5%;
-  height: 100%;
-  text-align: center;
-  text-decoration: none;
-}
-
-.gallery .next {
-  right: 0;
-  left: auto;
-}
-
-.gallery .controls div {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  width: 0;
-  height: 0;
-  line-height: 0;
-  border: 1em dashed transparent;
-  border-left: 0;
-  border-right: 1em solid #cbf;
-  margin: auto 0;
-}
-
-.gallery .next div {
-  left: auto;
-  right: 0;
-  border-right: 0;
-  border-left: 1em solid #cbf;
-}
-
-/* :hover */
-
-.gallery .prev:hover div {
-  border-right-color: #999;
-}
-
-.gallery .next:hover div {
-  border-left-color: #999;
-}
 
 #georgia {
   background-color: #d9c;
-  margin-top: 5em;
+  margin: auto;
 }
 
 #georgia-img {
@@ -259,6 +176,7 @@ ol {
   letter-spacing: .1em;
   color: #000;
   text-align: center;
+  margin-bottom: 5em;
 }
 
 .button-2 a {
@@ -277,8 +195,69 @@ ol {
   color: #fc7;
 }
 
+.button-3 {
+  font-family: MontserratLight;
+  font-size: .8em;
+  letter-spacing: .1em;
+  color: #000;
+  text-align: center;
+  margin-bottom: 5em;
+}
+
+.button-3 a {
+  text-decoration: none;
+  color: #000;
+  display: inline-block;
+  margin: 0 auto;
+  border: 1px solid #7e6;
+  padding-top: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+  padding-left: 1em;
+}
+
+.button-3 a:hover {
+  color: #7e6;
+}
+
 footer {
   position: relative;
   margin-top: 5em;
   background-color: #000;
+}
+
+#pickled {
+  background: #7e6;
+}
+
+#pickled h1 {
+  margin-top: -.5em;
+}
+
+#pickled-img {
+  display: block;
+  !width: 500px;
+  margin: 0 auto;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+@media (min-width: 15em) {
+
+  #pickled-img{
+
+  }
+
+}
+
+@media (min-width: 40em) {
+
+  #pickled-img {
+    display: block;
+    width: 600px;
+    margin: 0 auto;
+    padding-top: 3em;
+    padding-bottom: 3em;
+  }
+
 }
