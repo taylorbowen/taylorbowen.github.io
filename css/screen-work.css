@@ -26,6 +26,14 @@
 
 }
 
+@font-face {
+  font-family: 'Marcellus';
+  src: url('fonts/marcellus/marcellus-regular-webfont.woff2') format('woff2'),
+       url('fonts/marcellus/marcellus-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
 
 nav ul {
 	list-style: none;
@@ -55,7 +63,7 @@ nav.inline a {
 }
 
 nav.inline a:hover {
-	color: #cbf;
+	color: #7e6;
 }
 
 header {
@@ -64,10 +72,6 @@ header {
   background-color: #000;
 }
 
-#letterpress {
-  background-color: #cbf;
-  margin-bottom: 2em;
-}
 
 h1 {
   font-family: MontserratMedium;
@@ -91,10 +95,8 @@ p {
 
 /* general styles */
 
-!body {
-	width: 90%;
-	max-width: 60em;
-	margin: 0 auto;
+body {
+	margin: auto;
 }
 
 figure,
@@ -195,6 +197,44 @@ ol {
   color: #fc7;
 }
 
+.feltron {
+  background-color: #989;
+  margin-top: 4em;
+}
+
+#feltron-img {
+  display: block;
+  width: 325px;
+  margin: 0 auto;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+.button-4 {
+  font-family: MontserratLight;
+  font-size: .8em;
+  letter-spacing: .1em;
+  color: #000;
+  text-align: center;
+  margin-bottom: 5em;
+}
+
+.button-4 a {
+  text-decoration: none;
+  color: #000;
+  display: inline-block;
+  margin: 0 auto;
+  border: 1px solid #989;
+  padding-top: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+  padding-left: 1em;
+}
+
+.button-4 a:hover {
+  color: #989;
+}
+
 .button-3 {
   font-family: MontserratLight;
   font-size: .8em;
@@ -242,13 +282,7 @@ footer {
   padding-bottom: 3em;
 }
 
-@media (min-width: 15em) {
 
-  #pickled-img{
-
-  }
-
-}
 
 @media (min-width: 40em) {
 
